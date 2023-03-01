@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Unit Converter</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Unit Converter</h1>
+      <form>
+        <div class="input-group">
+          <label for="length-input">Length</label>
+          <select id="length-input">
+            <option value="mm">Millimeters</option>
+            <option value="cm">Centimeters</option>
+            <option value="m" selected>Meters</option>
+            <option value="km">Kilometers</option>
+            <option value="mi">Miles</option>
+            <option value="in">Inches</option>
+            <option value="ft">Feet</option>
+            <option value="yd">Yards</option>
+          </select>
+          <input type="number" id="length-value" placeholder="Enter length">
+          <button type="button" onclick="convertLength()">Convert</button>
+          <div id="length-result"></div>
+        </div>
+        <div class="input-group">
+          <label for="weight-input">Weight</label>
+          <select id="weight-input">
+            <option value="mg">Milligrams</option>
+            <option value="g">Grams</option>
+            <option value="kg" selected>Kilograms</option>
+            <option value="lb">Pounds</option>
+            <option value="oz">Ounces</option>
+          </select>
+          <input type="number" id="weight-value" placeholder="Enter weight">
+          <button type="button" onclick="convertWeight()">Convert</button>
+          <div id="weight-result"></div>
+        </div>
+        <div class="input-group">
+          <label for="temp-input">Temperature</label>
+          <select id="temp-input">
+            <option value="c" selected>Celsius</option>
+            <option value="k">Kelvin</option>
+            <option value="f">Fahrenheit</option>
+          </select>
+          <input type="number" id="temp-value" placeholder="Enter temperature">
+          <button type="button" onclick="convertTemp()">Convert</button>
+          <div id="temp-result"></div>
+        </div>
+        <div class="input-group">
+          <label for="time-input">Time</label>
+          <select id="time-input">
+            <option value="s">Seconds</option>
+            <option value="m">Minutes</option>
+            <option value="h" selected>Hours</option>
+            <option value="d">Days</option>
+            <option value="mo">Months</option>
+            <option value="y">Years</option>
+          </select>
+          <input type="number" id="time-value" placeholder="Enter time">
+          <button type="button" onclick="convertTime()">Convert</button>
+          <div id="time-result"></div>
+        </div>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,8 +1,6 @@
 # CC-FEB-WEB_DEVLOPMENT
 Unit Converter
 
-This Project I have done under the internship in CodeClause 
-
 This is a simple web-based units converter which can convert between different units of length, weight, temperature, and time.
 
 Usage
@@ -49,6 +47,3 @@ This units converter was built using HTML, CSS, and JavaScript.
 
 Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-License
-MIT
